@@ -9,5 +9,15 @@ public class Decorate {
 
         System.out.println("\n 第一种装扮：");
 
+        xc.wearTShirts();
+        xc.wearBigTrouser();
+        xc.wearSneakers();
+        xc.show();
+
+        System.out.println("\n 第二种装扮：");
+        xc.wearSuit();
+        xc.wearTie();
+        xc.wearLeatherShoes();
+        xc.show();
     }
 }
