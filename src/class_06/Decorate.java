@@ -8,16 +8,23 @@ public class Decorate {
         Person xc = new Person("小菜");
 
         System.out.println("\n 第一种装扮：");
+        Finery dtx = new TShirts();
+        Finery kk = new BigTrouser();
+        Finery pqx = new Sneakers();
 
-        xc.wearTShirts();
-        xc.wearBigTrouser();
-        xc.wearSneakers();
+        dtx.show();
+        kk.show();
+        pqx.show();
         xc.show();
 
         System.out.println("\n 第二种装扮：");
-        xc.wearSuit();
-        xc.wearTie();
-        xc.wearLeatherShoes();
+        Finery xz = new Suit();
+        Finery ld = new Tie();
+        Finery px = new LeatherShoes();
+
+        xz.show();
+        ld.show();
+        px.show();
         xc.show();
     }
 }
