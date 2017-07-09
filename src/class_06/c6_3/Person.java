@@ -1,4 +1,4 @@
-package class_06;
+package class_06.c6_3;
 
 import java.net.SocketPermission;
 
